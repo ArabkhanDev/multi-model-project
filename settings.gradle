@@ -1,0 +1,5 @@
+rootProject.name = 'student'
+
+include 'common'
+include 'student-ms'
+include 'user-ms'
