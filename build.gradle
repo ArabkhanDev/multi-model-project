@@ -6,7 +6,7 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version "$springBootVersion"
     id 'io.spring.dependency-management' version "$springDependencyManagerVersion"
-    id 'com.bmuschko.docker-remote-api' version "$dockerVersion"
+    id 'com.bmuschko.docker-remote-api' version "$dockerVersion" apply true
 }
 
 bootJar {
